@@ -1,0 +1,45 @@
+BOOTSTAP JS AND REACT NOTES
+Day1 Monday 17-03-2025
+
+STEPS TO CREATE NEW GIT REPOSITARY:
+Step1:login to github
+step2:click on plus slightly top right corner and select the new repositary
+step3: give name for repositary
+step4:give the description
+step5:make the repo public(default visibility)
+step6:select the readme file
+step7:click the create repositary 
+
+Command to download any public repositary:
+$ git clone https://github.com/Kavyanjali28/pfile_fe_mar25
+The above command copies(clones) the git repositary from the server(cloud) to the local machine
+Thus, we get a folder of the repo 
+
+$ git status
+The above command is to check the status of the remote repo with respect to the local repo
+
+$ git pull origin <branch name>
+$ git pull origin main
+The above command pulls(downloads) the files from the server(remote) to the local.Only the files 
+which are not updated are pulled
+
+SEPTS TO CREATE PERSONAL ACCESS TOKEN(PAT)
+1:On the top right most corner click on the profile icon.
+2:In the list of options click on settings.
+3:In the new window scroll dowm little bit and click on developer settings on the left.
+4:On the left top click on personal access token classic.
+5:In the new window click the button generate token and select token classic.
+6:In the new window add the relevant note(This pat was created for my learning the technologies during my mca). 
+7:Click expriy select no expriy.
+8:Select the check box repo.
+9:Scroll down fully and click generate token.
+10:Copy the token and mail it to yourself.(save the pat no where else).
+
+To do the operations on our repo from a specific computer the git should recoginze our account on the system 
+To achive this we have to run the following two commands
+
+$ git config --global user.name "Kavyanjali28"
+$ git config --global user.email "skavyanjali645@gmail.com"
+
+COMMAND TO SYCN OUR LOCAL REPO WITH REMOTE REPO 
+$ git clone https://PAT@github.com/Kavyanjali28/pfile_fe_mar25 
